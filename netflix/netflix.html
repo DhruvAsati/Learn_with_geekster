@@ -6,6 +6,12 @@
     <meta http-equiv="X-UA-Compatiable" content="ie=edge"/>
     <link rel="stylesheet" href="netflix.css"/>
     <title>Netflix Clone</title>
+    <style>
+        input:focus{
+                border:5px solid green;
+                
+        }   
+    </style>
 </head>
 <body style="background-color: rgba(0,0,0,0.8);"> 
     <main>
@@ -23,6 +29,7 @@
             <h2>Watch anywhere. Cancel anytime.</h2>
             <br>
             <p class="account-text">Ready to watch? Enter your email to create or restart your membership.</p>
+            <input type="text"  id="search-box" placeholder="Email address" required> <button type="submit" class="search-btn">Get Started ></button>
         </section>
     </main>
 </body>

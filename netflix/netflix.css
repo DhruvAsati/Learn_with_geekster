@@ -26,7 +26,7 @@ nav{
     width: 10%;
     height: 50px;
 }
-button{
+.logo-section button{
     width: 80px;
     float: right;
     margin-top: 26px;
@@ -50,4 +50,24 @@ h1{
 .account-text{
     font-size: 20px;
     font-weight: 50px;
+}
+#search-box{
+    margin-top: 10px;
+    width: 20%;
+    height: 50px;
+    border-radius: 7px;
+    
+   
+}
+
+.search-btn{
+    width:180px;
+    height: 50px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: red;
+    color: #efefef;
+    font-weight: bold;
+    border-radius: 7px;
+    font-size: 20px;
 }
