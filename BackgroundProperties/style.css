@@ -42,10 +42,9 @@ li:first-child{
     height: 400px;
 }
 .img2{
-    
     width: 400px;
     height: 400px;
-    margin-right: 15px;
+    margin-left: 15px;
     padding-left: 30px;
     padding-right: 10px;
 }
