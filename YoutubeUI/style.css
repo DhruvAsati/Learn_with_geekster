@@ -30,3 +30,25 @@ span > sup{
     font-weight: 100;
     color: white;
 }
+
+.search-box{
+    width: 400px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 150px;
+    border-radius: 20px;
+}
+.search-icon{
+    margin-top: 24px;
+    width: 40px;
+    margin-left: -50px;
+    background-color: grey;
+}
+.signin-btn{
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: grey;
+  display: flex;
+  margin-left: 400px;
+  color: blue;
+}
