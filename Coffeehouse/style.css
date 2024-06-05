@@ -50,6 +50,10 @@ nav{
     border-radius: 50%;
     box-shadow: 0 5px 10px 3px black;
 }
+.imge:hover{
+    transform: scale(1.1,1.1);
+    box-shadow: 0 5px 10px 4px black;
+}
 h4{
     padding-top: 20px;
     margin-left: 14%;
