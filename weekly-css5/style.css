@@ -113,7 +113,8 @@ nav .small-text{
     cursor: pointer;
 }
 .content span{
-    font-size: 1rem;
+    font-size: 1.2rem;
+    color: blue;
     margin-left: -50%;
 }
 .card-items img{
