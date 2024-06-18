@@ -186,6 +186,7 @@ li a:hover{
 /* Intro section part-2 */
 
 .intro .skills-list-container{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -198,7 +199,7 @@ li a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width:30%;
+    width:33%;
     line-height: 1.5rem;
 }
 
@@ -208,6 +209,7 @@ li a:hover{
 }
 
 .intro .skill-item p{
+    padding-left: 10px;
     color: var(--light-grey-color);
 }
 .intro .icon{
@@ -325,7 +327,7 @@ li a:hover{
 .services .propositions img{
         width: 50%;
         filter: grayscale(25%) contrast(60%);
-        height: 25rem;
+        height: 32rem;
         object-fit: cover;
         object-position: center;
 }
@@ -334,22 +336,113 @@ li a:hover{
     flex-shrink: 0;
     box-sizing: border-box;
 }
-.services .propositions-1 .content{
 
-    padding: 5rem 20vw 5rem 5rem;
+.services .propositions-1 .content{
+    padding: 5rem 15vw 5rem 5rem;
     box-sizing: border-box;
 }
 
 .services .propositions-2 .content{
-    padding: 5rem 5rem 5rem 20vw;
+    padding: 5rem 5rem 5rem 15vw;
     
 }
-
-.services .propositions h4{
-    font-size: 1.75rem;
+.services .propositions-2 .propositions-2-header{
+    font-size: 1.3rem;
     color: var(--dark-grey-color);
 }
+
+.business-range p{
+    width: 100%;
+    margin-top: 1rem;
+}
+.range1{
+    margin-top: 5px;
+    width: 100%;
+    height: 1.2rem;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: var(--light-green-color);
+}
+.range2{
+    margin-top: 5px;
+    width: 76%;
+    height: 1.2rem;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: var(--light-green-color);
+}
+
+.range3{
+    margin-top: 5px;
+    width: 90%;
+    height: 1.2rem;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: var(--light-green-color);
+}
+.propositions-2 .content .selection-button{
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+   
+}
+.propositions-2 .content .selection-button h2{
+    margin-right: 1.6rem;
+    color: #c1cace;
+    margin-bottom: 2rem;
+}
+.propositions-2 .content .selection-button  span{
+    display: flex;
+    color: #c1cace;
+}
+.propositions-2 .content .selection-button  span:first-child, .propositions-2 .content .selection-button  .first-colorBusiness{
+    color: var(--light-green-color);
+
+}
+.propositions-2 .content .selection-button h2:hover, .propositions-2 .content .selection-button span:hover {
+   color: var(--light-green-color);
+}
+.services .propositions h2{
+    font-size: 1.5rem;
+    color: var(--dark-grey-color);
+}
+
+.services .propositions h5{
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+    color: var(--dark-grey-color);
+    cursor: pointer;
+}
+
+.services .propositions h5 span{
+    background-color: var(--white-color);
+    border-radius: 50%;
+    padding: 2px 10px;
+    border: 1px solid var(--dark-grey-color);
+}
+
+.services .propositions h5:active, .propositions h5:hover {
+    color: var(--light-green-color);
+}
+.propositions h5:hover span{
+    color: var(--light-green-color);
+    border-color: var(--light-green-color);
+}
+.services .propositions h5:active span{
+    color: var(--white-color);
+    background-color: var(--light-green-color);
+}
+.propositions-1 .hover-content {
+    display: none;
+}
+
+.propositions-1 h5:active + .hover-content {
+    display: block;
+}
+
 .services .propositions p{
+    text-align: justify;
     color: var(--light-grey-color);
 }
 
@@ -835,10 +928,12 @@ footer .footer-list-container .footer-item a{
     color: var(--dark-white-color);
     padding-bottom: 10px;
 }
-footer span{
-    display: block;
+.footer-item > a:visited{
+    color: var(--white-color);
+}
+footer .copyright{
     margin-top: 5rem;
-    margin-bottom: -3rem;
-    color: var(--dark-white-color);
+    margin-bottom: -4.5rem;  
+   color: var(--dark-white-color);
    text-align: center;
 }
