@@ -93,6 +93,7 @@ section{
     background-color: var(--black);
       
 }
+
 .search{
     margin-left: 10%;
     padding-top: 10px;
@@ -225,4 +226,27 @@ section{
 .youtube-icons:hover{
     border-radius: 10px;
     background-color: var(--grey);
+}
+
+@media(max-width:600px){
+    .logo{
+       display: none;
+    }
+    .header{
+        width: 100%;
+    }
+    #search-bar{
+        display: none;
+    }
+    .side-bar{
+        display: none;
+    }
+    .video-section .video{
+        width: 100%;
+    }
+    .menu:active + .side-bar{
+        display: initial;
+        width: 20%;
+
+    }
 }
